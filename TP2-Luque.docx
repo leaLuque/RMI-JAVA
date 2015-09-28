@@ -1,0 +1,41 @@
+﻿
+Respuestas
+
+Punto 1
+
+a. Los puertos en los que atiende cada uno de los objetos remotos de los servidores son:
+Puerto 50088
+Puerto 50082
+
+b. El puerto en el cual atiende RMIRegistry es el 1099
+c. 
+e. Los mensajes hacia RMIRegistry se valen de TCP
+
+Punto 2
+
+a.
+
+b. En lo que refiere a la complejidad de las implementaciones, en JAVA RMI la misma se torna mucho mas fácil, dado que del lado del servidor lo único que se debe hacer es implementar la interfaz con los métodos remotos y los correspondientes objetos remotos que contienen a dichos métodos.
+Del lado del cliente, lo único que se debe hacer es instanciar el objeto remoto y llamar a los métodos que se precise. De esta forma, se otorga un mayor nivel de abstracción a la solución.
+
+Punto 4
+
+a.
+
+b.
+
+c. No se puede considerar que RPC y RMI tienen el mismo nivel de abstracción, ya que con RPC lo único que se hace es llamar a funciones que están contenidas en un servidor, en tanto que en RMI se puede tener referencias a objetos remotos e invocar a sus métodos, y además pasar mas referencias a objetos remoto que puede estar distribuidas en múltiples instancias de la JVM.
+
+d. La principal diferencia entre RPC y RMI, es que RMI es un mecanismo de invocación remota de procedimientos basado en el lenguaje de programación Java que soporta interacción entre objetos, mientras que RPC no soporta dicha característica. Esto se debe al enfoque que toma cada uno, en donde RMI usa un paradigma orientado a objetos donde el usuario necesita conocer el objeto y los metodos del objeto que el necesita invocar. En cambio RPC no es orientado a objetos y no trata con objetos, sino que mas bien llama a subrutinas especificas  que ya están establecidas.
+
+e.
+
+Punto 5
+
+Punto 6
+
+Punto 7
+
+Punto 8
+
+
